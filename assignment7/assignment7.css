@@ -15,11 +15,6 @@ body {
          background-color: white;
          }
 }
-@media screen and (orientation: portrait) {
-    section {
-        background-color: #D88FD8;
-    }
-}
     h1, h3 {
 	font-family: 'Special Elite', sans-serif;
     font-size: 1.5rem;
@@ -32,6 +27,11 @@ body {
     border-radius: 10px;
     background-color: #AFEEEE;
     box-shadow: none;
+}
+@media screen and (orientation: portrait) {
+    section {
+        background-color: #D8BFD8;
+    }
 }
     #author {
     color: rgb(112,128,144);
