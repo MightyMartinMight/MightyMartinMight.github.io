@@ -10,6 +10,11 @@ body {
     font-size: 1.0rem;
     background-color: #D8BFD8;
 }
+@media screen and (orientation: portrait) {
+    body {
+         background-color: white;
+    }
+}
 h1, h3 {
 	font-family: 'Special Elite', sans-serif;
     font-size: 1.5rem;
@@ -34,8 +39,3 @@ section {
     }
     @media screen and (max-width: 800px) {
     }
-@media screen and (orientation: portrait) {
-    body {
-         background-color: white;
-    }
-}
