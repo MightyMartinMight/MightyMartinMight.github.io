@@ -5,8 +5,8 @@ html {
     }
 @media screen and (orientation: portrait) {
     body {
-        background: white;
-        }
+         background-color: white;
+    }
 }
 img {
     max-width: 300px;
