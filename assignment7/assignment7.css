@@ -3,10 +3,6 @@ html {
 }
 @media screen and (max-width: 800px) {
 }
-img {
-    max-width: 300px;
-    max-height: auto;
-}
 body {
     font-family: 'Zilla Slab', serif;
     font-size: 1.0rem;
@@ -35,6 +31,8 @@ body {
     font-style: italic;
 }
     #padthai-image {
+        max-width: 300px;
+        max-height: auto;
         border-width: 5px;
         border-style: solid;
         border-color: #4B0082;
