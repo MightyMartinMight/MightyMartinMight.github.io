@@ -1,13 +1,6 @@
 html {
     font-size: 150%;
 }
-@media screen and (max-width: 800px) {
-    }
-@media screen and (orientation: portrait) {
-    body {
-         background-color: white;
-    }
-}
 img {
     max-width: 300px;
     max-height: auto;
@@ -39,3 +32,10 @@ section {
         border-style: solid;
         border-color: #4B0082;
     }
+    @media screen and (max-width: 800px) {
+    }
+@media screen and (orientation: portrait) {
+    body {
+         background-color: white;
+    }
+}
