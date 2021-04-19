@@ -19,9 +19,6 @@ body {
     body {
          background-color: white;
     }
-    section {
-        box-shadow: none;
-    }
 }
     h1, h3 {
 	font-family: 'Special Elite', sans-serif;
@@ -35,6 +32,11 @@ body {
     border-radius: 10px;
     background-color: #AFEEEE;
     box-shadow: 4px 4px 4px 4px rgb(199,21,133);
+}
+@media screen and (orientation: portrait) {
+    section {
+        box-shadow: none;
+    }
 }
     #author {
     color: rgb(112,128,144);
