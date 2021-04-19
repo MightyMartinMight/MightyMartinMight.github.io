@@ -9,6 +9,9 @@ max-height: auto;
 html {
 font-size: 150%;
     }
+section {
+    box-shadow: none;
+}
 }
 body {
     font-family: 'Zilla Slab', serif;
@@ -32,11 +35,6 @@ body {
     border-radius: 10px;
     background-color: #AFEEEE;
     box-shadow: 4px 4px 4px 4px rgb(199,21,133);
-}
-@media screen and (orientation: portrait) {
-    section {
-        box-shadow: none;
-    }
 }
     #author {
     color: rgb(112,128,144);
