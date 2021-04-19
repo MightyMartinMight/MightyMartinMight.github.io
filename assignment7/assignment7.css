@@ -4,7 +4,7 @@ html {
 img {
     max-width: 300px;
     max-height: auto;
-    }
+}
 body {
     font-family: 'Zilla Slab', serif;
     font-size: 1.0rem;
@@ -13,14 +13,17 @@ body {
 @media screen and (orientation: portrait) {
     body {
          background-color: white;
+         }
+    section {
+        background-color: #D88FD8;
     }
 }
-h1, h3 {
+    h1, h3 {
 	font-family: 'Special Elite', sans-serif;
     font-size: 1.5rem;
     color: #4B0082;
 }
-section {
+    section {
     margin: 2rem;
     padding: 1rem;
     border: solid 2px #191970;
@@ -28,7 +31,7 @@ section {
     background-color: #AFEEEE;
     box-shadow: none;
 }
-#author {
+    #author {
     color: rgb(112,128,144);
     font-style: italic;
     }
