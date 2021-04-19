@@ -17,6 +17,9 @@ section {
     body {
          background-color: white;
     }
+    section {
+        background-color: #D88FD8;
+    }
 }
 body {
     font-family: 'Zilla Slab', serif;
