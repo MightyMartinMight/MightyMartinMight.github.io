@@ -2,20 +2,15 @@ html {
     font-size: 100%;
 }
 @media screen and (max-width: 800px) {
-        img {
-        max-width: 300px;
-        max-height: auto;
+img {
+max-width: 300px;
+max-height: auto;
     }
-        html {
-        font-size: 150%;
+html {
+font-size: 150%;
     }
-        section {
-        box-shadow: none;
-    }
-}
-@media screen and (orientation: portrait) {
-    body {
-         background-color: white;
+section {
+box-shadow: none;
     }
 }
 body {
@@ -35,6 +30,11 @@ body {
     border-radius: 10px;
     background-color: #AFEEEE;
     box-shadow: 4px 4px 4px 4px rgb(199,21,133);
+}
+@media screen and (orientation: portrait) {
+    body {
+         background-color: white;
+    }
 }
     #author {
     color: rgb(112,128,144);
