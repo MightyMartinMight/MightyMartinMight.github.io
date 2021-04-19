@@ -2,7 +2,7 @@ html {
     font-size: 100%;
 }
 @media screen and (max-width: 800px) {
-img {
+#padthai-image {
 max-width: 300px;
 max-height: auto;
     }
@@ -11,7 +11,7 @@ font-size: 150%;
     }
 section {
     box-shadow: none;
-}
+    }
 }
 body {
     font-family: 'Zilla Slab', serif;
