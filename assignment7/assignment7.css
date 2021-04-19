@@ -1,17 +1,27 @@
 html {
-    font-size: 150%;
+    font-size: 100%;
 }
 @media screen and (max-width: 800px) {
+img {
+    max-width: 300px;
+    max-height: auto;
+}
+html {
+    font-size: 150%;
+}
+section {
+    box-shadow: none;
+}
+}
+@media screen and (orientation: portrait) {
+    body {
+         background-color: white;
+    }
 }
 body {
     font-family: 'Zilla Slab', serif;
     font-size: 1.0rem;
     background-color: #D8BFD8;
-}
-@media screen and (orientation: portrait) {
-    body {
-         background-color: white;
-         }
 }
     h1, h3 {
 	font-family: 'Special Elite', sans-serif;
@@ -24,15 +34,13 @@ body {
     border: solid 2px #191970;
     border-radius: 10px;
     background-color: #AFEEEE;
-    box-shadow: none;
+    box-shadow: 4px 4px 4px 4px rgb(199,21,133);
 }
     #author {
     color: rgb(112,128,144);
     font-style: italic;
 }
     #padthai-image {
-        max-width: 300px;
-        max-height: auto;
         border-width: 5px;
         border-style: solid;
         border-color: #4B0082;
