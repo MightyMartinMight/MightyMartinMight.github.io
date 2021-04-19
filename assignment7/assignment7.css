@@ -9,9 +9,6 @@ max-height: auto;
 html {
     font-size: 150%;
     }
-section {
-    box-shadow: none;
-}
 }
 body {
     font-family: 'Zilla Slab', serif;
@@ -21,6 +18,9 @@ body {
 @media screen and (orientation: portrait) {
     body {
          background-color: white;
+    }
+    section {
+        box-shadow: none;
     }
 }
     h1, h3 {
